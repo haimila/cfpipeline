@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Mitjan CloudFormation -testitemplate
+
+Resources:
+
+  SNStopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: cfpipeline
