@@ -1,9 +1,10 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: Mitjan CloudFormation -testitemplate
-
+#testimuutos
 Resources:
 
   SNStopic:
     Type: AWS::SNS::Topic
     Properties:
       TopicName: cfpipeline
+
